@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- Menu -->
     <nav class="navbar navbar-expand-lg bg-light ">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">Montañismo</a>
@@ -41,13 +42,15 @@
             </div>
         </div>
     </nav>
+    <!-- Seccion principal proximas expediciones -->
     <section class="seccionProximasExp">
         <div class="container-fluid p-2  ms-4">
             <h3>Próximas expediciones por venir</h3>
         </div>
         <div class="container-fluid">
             <div class="row bg-transparent">
-                <div class="col-4 ">
+                <!-- Expediciones -->
+                <div class="col-5 ">
                     <div class="list-group" id="list-tab" role="tablist">
                         <a class="list-group-item list-group-item-action active" id="list-home-list"
                             data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Volcan
@@ -61,7 +64,8 @@
                             href="#list-settings" role="tab" aria-controls="list-settings">Volcan Domuyo</a>
                     </div>
                 </div>
-                <div class="col-8">
+                <!-- Fotos de cada expedicion -->
+                <div class="col-7">
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="list-home" role="tabpanel"
                             aria-labelledby="list-home-list"><img
@@ -87,6 +91,7 @@
             </div>
         </div>
     </section>
+    <!-- JS Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
